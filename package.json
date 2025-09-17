@@ -5,7 +5,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "5.0.1",
+    "serve": "^14.2.5"
   },
   "scripts": {
     "start": "WATCHPACK_POLLING=true HOST=0.0.0.0 PORT=5000 DISABLE_ESLINT_PLUGIN=true WDS_SOCKET_PORT=443 react-scripts start",
