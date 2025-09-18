@@ -2,7 +2,7 @@
 
 # Download repl.deploy
 echo "Downloading repl.deploy..."
-wget https://github.com/khrj/repl.deploy/releases/download/0.1.2/repl.deploy_linux_x86-64.tar.gz -O repl.deploy.tar.gz
+curl -L https://github.com/khrj/repl.deploy/releases/download/0.1.2/repl.deploy_linux_x86-64.tar.gz -o repl.deploy.tar.gz
 
 # Extract it
 echo "Extracting..."
