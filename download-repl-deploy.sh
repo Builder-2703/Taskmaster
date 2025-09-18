@@ -2,7 +2,7 @@
 
 # Download repl.deploy directly (not as tar.gz since it might just be a binary)
 echo "Downloading repl.deploy..."
-curl -L https://github.com/khrj/repl.deploy/releases/download/0.1.2/repl.deploy -o repl.deploy
+curl -L https://github.com/khrj/repl.deploy/releases/download/1.0.0/repl.deploy -o repl.deploy
 
 # Make it executable
 echo "Setting permissions..."
